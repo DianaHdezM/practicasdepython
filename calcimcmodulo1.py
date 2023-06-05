@@ -32,3 +32,5 @@ print ("Edad:", edad, "años.")
 print ("Peso:", peso, "kg.")
 print ("Estatura:", estatura, "m.")
 print (f"Tu IMC es:{peso / estatura ** 2: .2f}")
+
+input()
