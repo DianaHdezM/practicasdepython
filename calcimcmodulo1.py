@@ -1,28 +1,28 @@
 #Solicitaremos los datos de la persona.
 
-nombre = (input("Introduce tu nombre: "))
+nombre = (input("Ingresa tu nombre: "))
 if nombre == "":
-  print  ("Error. No introduciste tu nombre")
+  print  ("Error. No ingresaste tu nombre")
   quit()
-apellido1 = (input("Introduce tu apellido paterno: "))
+apellido1 = (input("Ingresa tu apellido paterno: "))
 if apellido1 == "":
-  print  ("Error, No introduciste tu apellido paterno.")
+  print  ("Error, No ingresaste tu apellido paterno.")
   quit()
-apellido2 = (input("Introduce tu apellido materno: "))
+apellido2 = (input("Ingresa tu apellido materno: "))
 if apellido2 == "":
-  print  ("Error, No introduciste tu apellido materno.")
+  print  ("Error, No ingresaste tu apellido materno.")
   quit()
-edad = int(input("Introduce tu edad: "))
+edad = int(input("Ingresa tu edad: "))
 if edad<0 or edad>150:
-  print ("Error, introduce tú edad correcta.")
+  print ("Error, ingresa tú edad correcta.")
   quit()
-peso = float(input("Introduce tu peso en kilogramos: "))
+peso = float(input("Ingresa tu peso en kilogramos: "))
 if peso<0 or peso>370:
-  print ("Error, introduce tú peso correcto en kilogramos.")
+  print ("Error, ingresa tú peso correcto en kilogramos.")
   quit()
-estatura = float(input("Introduce tu estatura en metros: "))
+estatura = float(input("Ingresa tu estatura en metros: "))
 if estatura<0 or estatura>3:
-  print ("Error, introduce tú estatura correcta en metros.")
+  print ("Error, ingresa tú estatura correcta en metros.")
   quit()
 
 #Se realiza el cálculo del IMC y se imprime el resultado.
